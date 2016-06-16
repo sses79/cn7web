@@ -83,6 +83,7 @@
                 <li><a href="{{ URL::to('feature') }}">feature</a></li>
                 <li><a href="{{ URL::to('portfolio') }}">portfolio</a></li>
                 <li><a href="{{ URL::to('timeline') }}">timeline</a></li>
+                <li><a href="{{ URL::to('new') }}">new</a></li>
                 <li><a href="{{ route('backend-login') }}">admin</a></li>
             </ul>
         </div>

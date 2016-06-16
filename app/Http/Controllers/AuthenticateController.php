@@ -14,7 +14,7 @@ class AuthenticateController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('jwt.auth', ['except' => ['authenticate', 'showFrontEndView']]);
+        $this->middleware('jwt.auth', ['except' => ['authenticate']]);
     }
 
     public function index()

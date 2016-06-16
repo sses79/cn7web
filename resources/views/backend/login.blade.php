@@ -16,7 +16,7 @@
         <div class="row">
             <div class="panel-header">
                 <h2 class="text-center">
-                    Backend Login
+                    Login
                 </h2>
             </div>
             <div class="panel-body social col-sm-offset-3">
@@ -64,12 +64,12 @@
                                 </span>
                                 <input type="password" class="form-control" name="password" placeholder="password"></div>
                             <span class="help-block">{{ $errors->first('password', ':message') }}</span>
-                            <div class="checkbox">
-                                <label>
+                            {{--<div class="checkbox">--}}
+                                {{--<label>--}}
                                     {{--<input type="checkbox">--}}
-                                    email: admin@admin.com | pw: admin
-                                </label>
-                            </div>
+                                    {{--email: admin@admin.com | pw: admin--}}
+                                {{--</label>--}}
+                            {{--</div>--}}
                             <input type="submit" class="btn btn-md btn-primary btn-block" value="Login" />
                             <a href="{{ route('home') }}" class="btn btn-md btn-block btn-danger">Discard</a>
                         </form>

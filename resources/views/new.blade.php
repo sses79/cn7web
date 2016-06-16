@@ -22,26 +22,8 @@
         <!-- Phones Section Start -->
         <div class="services">
             <h3>
-                <label class="border-bottom">Phone Portfolio</label>
+                <label class="border-bottom">New</label>
             </h3>
-            @foreach ($phones as $phone_chunk)
-                <div class="row rcnt-wrk">
-                    @foreach ($phone_chunk as $phone)
-                        <div class="col-sm-2 col-md-2">
-                            <div class="ih-item square colored effect13 left_to_right">
-                                <a href="#">
-                                    <div class="img"><img src="{{ asset($phone->imageUrl) }}" width="160"
-                                                          class="img-responsive"></div>
-                                    <div class="info">
-                                        <h3>{{$phone->hs}}</h3>
-                                        <p>{{$phone->name}}</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            @endforeach
         </div>
         <!-- //Phones Section End -->
         <!-- Text-bg Section Start -->

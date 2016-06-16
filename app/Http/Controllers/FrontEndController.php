@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests;
+use App\Http\Requests\SubscribeRequest;
 use App\News;
 use App\Phone;
 use App\Http\Controllers\Controller;
@@ -29,7 +31,17 @@ class FrontEndController extends Controller
         return view('portfolio', ['phones' => Phone::where('id', '>', 1)->take(18)->get()->chunk(6)]);
     }
 
+    public function showNew()
+    {
+        return view('new');
+    }
+
     public function showFrontEndView($name = null)
+    {
+        return View('welcome');
+    }
+
+    public function postSubscribe(SubscribeRequest $request)
     {
         return View('welcome');
     }

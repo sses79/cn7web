@@ -11,6 +11,8 @@ Route::get('/', array('as' => 'home', function () {
 Route::get('timeline', 'FrontEndController@showTimeline');
 Route::get('feature', 'FrontEndController@showFeature');
 Route::get('portfolio', 'FrontEndController@showPortfolio');
+Route::get('new', 'FrontEndController@showNew');
+Route::post('subscribe', array('as' => 'subscribe', 'uses' => 'FrontEndController@postSubscribe'));
 
 
 /*

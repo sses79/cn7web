@@ -21,7 +21,7 @@
     <div class="bg">
         <div class="container">
             <div class="services">
-                <h2><label class="border-bottom mrg_lft12"> Timeline</label></h2>
+                <h2><label class="border-bottom mrg_lft12">News Timeline</label></h2>
             </div>
             <div class="row">
                 <section id="cd-timeline" class="cd-container">
@@ -40,7 +40,6 @@
                                 <p>
                                     {{ $s_news->content }}
                                 </p>
-                                <a href="#" class="btn btn-md btn-success">Read more</a>
                             </div>
                         </div>
                     @endforeach
@@ -54,7 +53,6 @@
                             <h2>Another batch of OnePlus 3 live images surfaces online</h2>
                             <p>OnePlus is definitely no stranger to viral marketing and it is no wonder the upcoming
                                 OnePlus 3 has been stirring up so much excitement online. </p>
-                            <a href="#" class="btn btn-md btn-primary">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <!-- cd-timeline-block -->
@@ -70,7 +68,6 @@
                                 during this year's Mobile World Congress (MWC)? Well, the device was spotted at the
                                 ongoing Computex 2016, and looks like it has gained a fingerprint scanner.
                             </p>
-                            <a href="#" class="btn btn-md btn-danger">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <!-- cd-timeline-block -->
@@ -87,7 +84,6 @@
                                 available for purchase all this while. That, however, will soon change as the company
                                 has started accepting pre-orders for the 6GB version.
                             </p>
-                            <a href="#" class="btn btn-md btn-default">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <!-- cd-timeline-block -->
@@ -104,7 +100,6 @@
                                 the company has now revealed that the total number of registrations has already crossed
                                 the 6 million mark.
                             </p>
-                            <a href="#" class="btn btn-md btn-warning">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <!-- cd-timeline-block -->
@@ -119,7 +114,6 @@
                             <p>We've already taken a look at 3D sketches depicting what the upcoming Samsung Galaxy Note
                                 6 (or Note 7) might look like. And now, a new render of the device has been leaked
                                 revealing the device's dimensions.</p>
-                            <a href="#" class="btn btn-md btn-primary">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <div class="cd-timeline-block">
@@ -135,7 +129,6 @@
                                 unveiling a new and "exciting" product in Europe. This will apparently be "fast, robust,
                                 and affordable", as you can see from the invite pictured below.
                             </p>
-                            <a href="#" class="btn btn-md btn-danger">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <!-- cd-timeline-block -->
@@ -151,7 +144,6 @@
                                 talking about the AT&T version of the Microsoft Lumia 640 and Verizon's Lumia 735 model.
                                 Both of them are now in the process of being updated to Windows 10 Mobile
                                 over-the-air.</p>
-                            <a href="#" class="btn btn-md btn-success">Read more</a>
                         </div>
                         <!-- cd-timeline-content --> </div>
                     <!-- cd-timeline-block -->

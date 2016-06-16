@@ -20,11 +20,14 @@
 
     <!-- Carousel Section Start -->
     <div id="owl-demo" class="owl-carousel owl-theme">
-        <div class="item"><img src="{{ asset('assets/images/slider_1.jpg') }}" alt="slider-image" class="img-responsive">
+        <div class="item"><img src="{{ asset('assets/images/slider_1.jpg') }}" alt="slider-image"
+                               class="img-responsive">
         </div>
-        <div class="item"><img src="{{ asset('assets/images/slider_2.jpg') }}" alt="slider-image" class="img-responsive">
+        <div class="item"><img src="{{ asset('assets/images/slider_2.jpg') }}" alt="slider-image"
+                               class="img-responsive">
         </div>
-        <div class="item"><img src="{{ asset('assets/images/slider_3.jpg') }}" alt="slider-image" class="img-responsive">
+        <div class="item"><img src="{{ asset('assets/images/slider_3.jpg') }}" alt="slider-image"
+                               class="img-responsive">
         </div>
     </div>
     <!-- //Carousel Section End -->
@@ -33,7 +36,7 @@
         <div class="container">
             <div class="row services">
                 <h3>
-                    <label class="border-bottom">Features
+                    <label class="border-bottom">Featured Story
                     </label>
                 </h3>
                 <!-- Features Image Section Start -->
@@ -56,7 +59,13 @@
                                 means, most-likely leaving the iPhone announcements on their usual September schedule,
                                 but also probably skipping on any new MacBook Pro with an OLED touch display above the
                                 keyboard, that has been floating around in the rumor mill.</p>
-                            <span class="btn btn-primary button"><a href="#">Read more</a></span>
+                            <p>However, this definitely doesn't mean that there are no new announcements to get excited
+                                about. IOS 10 should make its official debut at the venue and so should other big
+                                software updates across the entire Apple device ecosystem. The new mobile OS promises
+                                another round of UI refinements, with the Apple Music app, likely getting a major
+                                redesign for a bolder, yet more simplistic look, as the company puts it.</p>
+                            <p>Another popular rumor hints at Apple Pay support for web browsers, so people can make
+                                purchases through Safari, as well as integration into iMessage for money transfers. </p>
                         </div>
                     </div>
                 </div>
@@ -83,8 +92,7 @@
                         <h4><b>Jolla</b></h4>
                         <h5><b class="ceo-text">Nokia's Linux efforts</b></h5>
                         <br/>
-                        <p>Yes, Jolla. The spiritual successor of Nokia's Linux efforts has had a rocky ride, riddled
-                            with financial issues. It's still going though and as a token of appreciation for its
+                        <p>The spiritual successor of Nokia's Linux efforts has had a rocky ride. It's still going though and as a token of appreciation for its
                             community, it's making 1,000 Jolla C phones available to members of the Sailfish Community
                             Device Program.</p>
                     </div>
