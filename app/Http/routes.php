@@ -60,6 +60,7 @@ Route::group(['prefix' => 'api'], function () {
     Route::get('phones', [
         'as' => 'phones', 'middleware' => 'jwt.auth', 'uses' => 'PhoneController@index'
     ]);
+    Route::resource('TLItem', 'TLItemController');
 });
 
 Route::get('{name?}', 'FrontEndController@showFrontEndView');
